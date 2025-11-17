@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PROJECT 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="heading-bar">Color Switcher</h1>
+    </header>
+    <main class="container">
+        <div class="box" id="yellow"></div>
+        <div class="box" id="red"></div>
+        <div class="box" id="aquamarine"></div>
+        <div class="box" id="orange"></div>
+        <div id="theme-container">
+        <h2>Select a Color Theme</h2>
+        <div class="preset-colors">
+    <button class="box" id="yellow" aria-label="Yellow theme"></button>
+    <button class="box" id="red" aria-label="Red theme"></button>
+    <button class="box" id="aquamarine" aria-label="Aquamarine theme"></button>
+    <button class="box" id="orange" aria-label="Orange theme"></button>
+        </div>
+  <label for="custom-color">Pick your own:</label>
+  <input type="color" id="custom-color" aria-label="Custom color picker">
+  <button id="reset-btn">Reset</button>
+  <div id="palette-history"></div>
+</div>
+
+    </main>
+    <footer>
+        <h3 id="heading-bar">Click above any box to change the color of the background</h3>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
